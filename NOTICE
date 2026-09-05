@@ -1,0 +1,25 @@
+The Go Programming Language, 2nd edition — example programs
+===========================================================
+
+Chapters 1 to 13 of this repository are derived from the example programs
+accompanying the first edition of "The Go Programming Language":
+
+    Copyright (c) 2016 Alan A. A. Donovan & Brian W. Kernighan
+    https://github.com/adonovan/gopl.io
+    Licensed under CC BY-NC-SA 4.0
+
+Those programs have been modified: io/ioutil replaced by io and os, the cgo
+helpers in ch13/bzip made static, ch8/cake's testing.Verbose call moved out of
+package initialization, ch12/methods' example functions renamed and their
+expected output updated, and the //!+ excerpt markers removed. See README.md
+for the full list.
+
+Chapters 14 to 20 are new work.
+
+Because the first edition's programs are licensed CC BY-NC-SA 4.0, this
+repository as a whole is distributed under the same licence (see LICENSE):
+attribution required, non-commercial use only, and derivative works must be
+shared under the same terms.
+
+This repository contains example programs only. The text of the book is not
+included and is not covered by this licence.

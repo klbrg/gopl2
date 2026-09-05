@@ -13,7 +13,13 @@ Or, working in the tree:
     go build ./...
     go run ./ch1/helloworld
 
-## Provenance and licence
+## Licence
+
+CC BY-NC-SA 4.0 — see `LICENSE` for the full text and `NOTICE` for what is
+derived from where. In short: attribution required, non-commercial use only,
+and anything you build from this must be shared under the same terms.
+
+## Provenance
 
 Chapters 1–13 derive from the first edition's companion programs at
 <https://github.com/adonovan/gopl.io>, © 2016 Alan A. A. Donovan &
