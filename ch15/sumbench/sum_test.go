@@ -4,7 +4,7 @@ import "testing"
 
 var (
 	floats = make([]float64, 4096)
-	ifaces = make([]Adder, 4096)
+	ifaces = make([]Summand, 4096)
 	sink   float64
 )
 

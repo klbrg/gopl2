@@ -20,7 +20,7 @@
 // it returns, it clears the fields of the bz_stream that contain
 // pointers to Go variables.
 
-// Package bzip provides a writer that uses bzip2 compression (bzip.org).
+// Package bzip provides a writer that uses bzip2 compression (sourceware.org/bzip2).
 package bzip
 
 /*

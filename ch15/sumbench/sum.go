@@ -23,9 +23,9 @@ func SumFloat64(s []float64) float64 {
 }
 
 // Interface-based: one implementation, dynamic dispatch per element.
-type Adder interface{ Add(float64) float64 }
+type Summand interface{ Add(float64) float64 }
 
-func SumIface(s []Adder) float64 {
+func SumIface(s []Summand) float64 {
 	var total float64
 	for _, v := range s {
 		total = v.Add(total)

@@ -59,7 +59,7 @@ func equal(x, y reflect.Value, seen map[comparison]bool) bool {
 	case reflect.Chan, reflect.UnsafePointer, reflect.Func:
 		return x.Pointer() == y.Pointer()
 
-	case reflect.Ptr, reflect.Interface:
+	case reflect.Pointer, reflect.Interface:
 		return equal(x.Elem(), y.Elem(), seen)
 
 	case reflect.Array, reflect.Slice:
@@ -100,7 +100,7 @@ func equal(x, y reflect.Value, seen map[comparison]bool) bool {
 //
 // Map keys are always compared with ==, not deeply.
 // (This matters for keys containing pointers or interfaces.)
-func Equal(x, y interface{}) bool {
+func Equal(x, y any) bool {
 	seen := make(map[comparison]bool)
 	return equal(reflect.ValueOf(x), reflect.ValueOf(y), seen)
 }
