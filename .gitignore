@@ -1,3 +1,16 @@
+# Compiled binaries: every program here is meant to be built by the reader.
 *.test
 bin/
 /tmp/
+*.exe
+ch14/hello/hello
+ch14/modinfo/modinfo
+ch14/mvs/app/app
+ch14/twoversions/twoversions
+ch14/whoami/whoami
+ch14/workspace/hello/hello
+
+# Editor and VCS leftovers
+*~
+*.orig
+*.rej
