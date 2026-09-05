@@ -1,0 +1,2 @@
+poem:
+the files are inside the binary now
